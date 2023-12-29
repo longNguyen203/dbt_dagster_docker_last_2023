@@ -1,0 +1,12 @@
+warehouse:
+  outputs:
+    dev:
+      dbname: AdvantureWorks
+      host: localhost
+      pass: "@@LONG2003"  #demopass
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: postgres   #elt
+  target: dev

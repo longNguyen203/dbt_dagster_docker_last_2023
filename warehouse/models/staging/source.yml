@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: src_postgres
+    schema: public
+    database: AdvantureWorks
+    
+    tables:
+      - name: src_Sales_Customer
+      - name: src_Sales_SalesOrderDetail
+      - name: src_Sales_SalesOrderHeader
+      - name: src_Sales_SalesOrderHeaderSalesReason
+      - name: src_Person_CountryRegion
+      - name: src_Person_Person
+      - name: src_Production_Product
+      - name: src_Production_ProductCategory
+      - name: src_Production_ProductSubcategory
+      - name: src_Sales_SalesReason
+      - name: src_Sales_SalesTerritory
+      - name: src_Person_StateProvince
+      - name: src_Sales_Store
+      - name: src_Person_Address
