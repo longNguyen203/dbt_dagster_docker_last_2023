@@ -33,7 +33,9 @@ def extract() -> None:
             "Sales.SalesTerritory",
             "Person.StateProvince",
             "Sales.Store",
-            "Person.Address",
+            # "Person.Address",
+            "Person.BusinessEntityAddress"
+            
         ]
         
         for table in tables:

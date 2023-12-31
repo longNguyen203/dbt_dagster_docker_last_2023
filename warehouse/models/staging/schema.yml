@@ -2,14 +2,165 @@
 version: 2
 
 models:
-  - name: stg_dimproductcategory
+  - name: "stg_dimproductcategory"
     description: "This table stores product category data"
-    columns:
-      - name: ProductCategoryID
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-      - name: Name
-        description: ""
+    # columns:
+    #   - name: "ProductCategoryID"
+    #     description: "Primary Key"
+    #     tests:
+    #       - unique
+    #       - not_null
+        
+  - name: "stg_address"
+    description: ""
+    # columns:
+    #   - name: "AddressID"
+    #     description: "Primary Key"
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_CountryRegion"
+    description: ""
+    # columns:
+    #   - name: "CountryRegionCode"
+    #     data_type: text
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_Customer"
+    description: ""
+    # columns:
+    #   - name: "CustomerID"
+    #     data_type: bigint
+    #     description: "Primary Key"
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_Person"
+    description: ""
+    # columns:
+    #   - name: "BusinessEntityID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_Product"
+    description: ""
+    # columns:
+    #   - name: "ProductID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_ProductCategory"
+    description: ""
+    # columns:
+    #   - name: "ProductCategoryID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+    #   - name: "Name"
+    #     description: ""
+    #     tests:
+    #       - accepted_values:
+    #           values: ['Bikes', 'Components', 'Clothing', 'Accessories']
+
+  - name: "stg_ProductSubcategory"
+    description: ""
+    # columns:
+    #   - name: "ProductSubcategoryID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_SalesOrderDetail"
+    description: ""
+    # columns:
+    #   - name: "SalesOrderID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_SalesOrderHeader"
+    description: ""
+    # columns:
+    #   - name: "SalesOrderID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_SalesOrderHeaderSalesReason"
+    description: ""
+    # columns:
+    #   - name: "SalesOrderID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_SalesReason"
+    description: ""
+    # columns:
+    #   - name: "SalesReasonID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_SalesTerritory"
+    description: ""
+    # columns:
+    #   - name: "TerritoryID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_StateProvince"
+    description: ""
+    # columns:
+    #   - name: "StateProvinceID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_Store"
+    description: ""
+    # columns:
+    #   - name: "BusinessEntityID"
+    #     data_type: bigint
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
+
+  - name: "stg_BusinessEntityAddress"
+    description: ""
+    # columns:
+    #   - name: "BusinessEntityID"
+    #     description: ""
+    #     tests:
+    #       - unique
+    #       - not_null
 

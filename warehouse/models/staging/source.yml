@@ -20,3 +20,4 @@ sources:
       - name: src_Person_StateProvince
       - name: src_Sales_Store
       - name: src_Person_Address
+      - name: src_Person_BusinessEntityAddress
