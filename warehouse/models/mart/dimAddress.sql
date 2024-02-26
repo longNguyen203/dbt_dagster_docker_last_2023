@@ -1,5 +1,7 @@
 select
     {{ dbt_utils.generate_surrogate_key(['stg_address."AddressID"']) }} as address_key,
+    -- Tạo ID cho dimensional address
+
     stg_address."AddressID",
     stg_address."City" as city_name,
     stg_address."PostalCode", 
